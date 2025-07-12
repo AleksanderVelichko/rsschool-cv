@@ -1,0 +1,10 @@
+.parent {
+  position: relative;
+  height: 50rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+}
+.child {
+  height: 20rem;
+  background: url(/img/bg.jpg) center / cover no-repeat;
+}
