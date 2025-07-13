@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aleksandr's awesome CV!</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="container1">
+          <nav class="nav">
+            <ul class="navig_list">
+              <li class="navig_item">
+                <a href="#contacts" class="navig_link">Contacts</a>
+              </li>
+              <li class="navig_item">
+                <a href="#about" class="navig_link">About me</a>
+              </li>
+              <li class="navig_item">
+                <a href="#skills" class="navig_link">Skills</a>
+              </li>
+              <li class="navig_item">
+                <a href="#code" class="navig_link">Code example</a>
+              </li>
+              <li class="navig_item">
+                <a href="#projects" class="navig_link">My projects</a>
+              </li>
+              <li class="navig_item">
+                <a href="#education" class="navig_link">Education</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="container1">
+          <img
+            class="avatarimg"
+            src="./img/myphoto.jpg"
+            alt="my avatar "
+            width="400"
+            height="280"
+          />
+
+          <div class="avatar_des">
+            <h1>Hello, my name is Aleksandr! Glad to see you on my CV-page!</h1>
+          </div>
+
+          <div class="contacts_div">
+            <h2 id="contacts">Contacts</h2>
+            <ul>
+              <li>Phone: +99999999</li>
+              <li>email: myemail@myemail.com</li>
+            </ul>
+          </div>
+          <div class="about_div">
+            <h2 id="about">About me</h2>
+            <p style="width: 900px">
+              This is information about me: Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Repellat totam laboriosam magnam
+              assumenda aspernatur velit, ad repudiandae omnis harum iure
+              dolores qui aperiam dolorem ut quam. Repudiandae illo ullam
+              libero.
+            </p>
+          </div>
+          <div class="skills_div">
+            <h2 id="skills">Skills</h2>
+            <ol style="text-align: left; padding-left: 430px">
+              <li>Smart</li>
+              <li>Awesome</li>
+              <li>SQL</li>
+            </ol>
+          </div>
+          <div class="code_div">
+            <h2 id="code">Code example</h2>
+            <img src="./img/code.JPG" alt="my code" />
+          </div>
+          <div class="project_div">
+            <h2 id="projects">My projects</h2>
+            <a
+              href="https://aleksandervelichko.github.io/parallax-mountains-website/"
+              ><img src="./img/pr1.JPG" alt="my pr1" width="400" height="230"
+            /></a>
+            <a
+              href="https://aleksandervelichko.github.io/parrallax-forest-website/"
+              ><img src="./img/pr2.JPG" alt="my pr2" width="400" height="230"
+            /></a>
+          </div>
+          <div class="education_div">
+            <h2 id="education">Education</h2>
+            <div style="text-align: left; padding-left: 300px">
+              <p>Bauman Moscow State Technical University</p>
+              <p>English: B1+</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container1">
+          <a href="https://rs.school/courses/javascript-ru"
+            ><img
+              src="./img/rs-school-logo.svg"
+              alt="rs logo"
+              width="50"
+              height="25" /></a
+          ><br />
+
+          <a href="https://github.com/AleksanderVelichko">My GitHub</a>
+          <div>CV created in 2025</div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
