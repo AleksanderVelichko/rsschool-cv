@@ -1,10 +1,35 @@
-.parent {
-  position: relative;
-  height: 50rem;
-  perspective: 150rem;
-  -moz-perspective: 150rem;
+body {
+  /* background-color: black;
+  background-image: url(./img/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  margin: 0;
+  padding: 0;
 }
-.child {
-  height: 20rem;
-  background: url(/img/bg.jpg) center / cover no-repeat;
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header,
+main,
+footer {
+  border: 1px solid rgb(255, 68, 47);
+  height: 100px;
+}
+main {
+  flex: 1 1 auto;
+}
+.navig_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navig_list {
+  list-style: none;
+}
+.navig_link {
+  padding: 0 20px;
+  line-height: 50px;
 }
