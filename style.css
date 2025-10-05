@@ -62,3 +62,14 @@ footer {
 ul {
   list-style: none;
 }
+.s1 {
+  width: 900px;
+}
+.s2 {
+  text-align: left; 
+  padding-left: 430px;
+}
+.s3 {
+   text-align: left; 
+  padding-left: 300px;
+}
